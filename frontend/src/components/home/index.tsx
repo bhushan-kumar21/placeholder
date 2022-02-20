@@ -21,7 +21,7 @@ export default function Home() {
 	return (
 		<Layout>
 			<Header className="header">
-				<div className="logo" />
+				<img className="logo" src={logo} />
 				<Menu
 					onClick={handleClick}
 					selectedKeys={[current]}
